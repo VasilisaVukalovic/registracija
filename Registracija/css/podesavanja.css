@@ -1,0 +1,89 @@
+.meniForm {
+  margin: auto;
+  width: max-content;
+  margin-top: 160px;
+}
+h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  margin-left: 140px;
+}
+#ime,
+#prezime,
+#lozinka,
+#plozinka,
+#indeks,
+#adresa,
+#name,
+#password,
+#korisnicko {
+  border: 2px solid blue;
+}
+#regist {
+  border: 3px solid black;
+  color: black;
+  background-color: orange;
+  font-weight: bold;
+  height: 37px;
+  width: 167px;
+}
+#prv {
+  border: 3px solid black;
+
+  background-color: green;
+  font-weight: bold;
+  height: 37px;
+  width: 167px;
+  margin-left: 20px;
+}
+#prv a {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+#prijava {
+  border: 3px solid black;
+  background-color: green;
+  font-weight: bold;
+  height: 37px;
+  width: 167px;
+}
+#registracija {
+  border: 3px solid black;
+  color: black;
+  background-color: orange;
+  font-weight: bold;
+  height: 37px;
+  width: 167px;
+}
+.zaglavlje {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.zaglavlje h2 {
+  margin: 0px;
+}
+.zaglavlje .imeOblik {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: silver;
+  border-radius: 5px;
+  width: max-content;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+}
+.notice {
+  border-radius: 5px;
+  border: 1px solid #b10800;
+  background-color: rgba(177, 4, 0, 0.6);
+  color: rgb(177, 36, 0);
+  text-align: center;
+  font-family: Arial;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  width: 500px;
+  margin: auto;
+}
